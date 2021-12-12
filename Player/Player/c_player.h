@@ -7,9 +7,11 @@ class c_player
 public:
 	c_player();
 	void setHealth(int);
-	int getHealth();
+	int getHealthMinus();
 	void setPower(int);
-	int getPower();
+	int getPowerMinus();
 	void Print();
+	int getHealth();
+	int getPower();
 };
 
