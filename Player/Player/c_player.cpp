@@ -12,7 +12,7 @@ void c_player::setHealth(int health)
 
 int c_player::getHealth()
 {
-	return health;
+	return health-5;
 }
 
 void c_player::setPower(int power)
@@ -22,10 +22,10 @@ void c_player::setPower(int power)
 
 int c_player::getPower()
 {
-	return power;
+	return power-3;
 }
 
 void c_player::Print()
 {
-	std::cout << "Здоровье = " << this->health << "\nСила = " << this->power << "\n";
+	std::cout << "Здоровье = " << health << "\nСила = " << power << "\n";
 }
